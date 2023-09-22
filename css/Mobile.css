@@ -1,6 +1,13 @@
-@media (max-width: 576px) {
+@media (max-width: 500px) {
   #banner {
     padding: 0 !important;
+  }
+  section > .container {
+    /* width: 1170px; */
+    margin: auto;
+    display: block;
+
+    padding: 30px 50px;
   }
   #Mobile-brand {
     display: none;
@@ -12,12 +19,12 @@
     display: flex;
     flex-direction: column;
   }
+
   #Mobile-sub-navbar {
     margin-left: 30px;
   }
   #Mobile-sub-navbar div {
     margin: 10px 0 10px 0;
-   
   }
   #Mobile-hidden {
     display: none;
@@ -71,7 +78,7 @@
   }
   .w-md-50 {
     width: 20% !important;
-    height: 3rem !important;
+    height: 2rem !important;
     align-items: center;
   }
 }
