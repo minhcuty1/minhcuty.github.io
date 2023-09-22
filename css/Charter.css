@@ -16,6 +16,13 @@
 .bg-magic {
   background-color: blueviolet;
 }
+#Mobile-Timeline div {
+  display: flex;
+  flex-direction: column;
+}
+.circle-bg {
+  width: 15% !important;
+}
 @media (max-width: 500px) {
   #Mobile-Goal div,
   #Mobile-Team div,
@@ -36,5 +43,8 @@
   }
   #number {
     width: 45px !important;
+  }
+  .circle-bg {
+    width: 9% !important;
   }
 }
