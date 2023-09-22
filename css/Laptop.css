@@ -25,7 +25,7 @@ section > .container {
   margin: auto;
   display: block;
 
-  padding: 30px 50px;
+  padding: 30px 0px;
 }
 
 #nav-bar {
