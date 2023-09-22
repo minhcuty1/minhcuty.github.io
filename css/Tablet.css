@@ -70,20 +70,10 @@
   }
 }
 @media (max-width: 576px) {
-  /* .bg-grey {
-      background: #f7f7f7;
-      width: 65% !important;
-    }
-    #certificate img {
-      height: 200px;
-      width: 800px;
-    }
-    .w-sm-100 {
-      width: 100% !important;
-    } */
+ 
   .panels {
     grid-template-columns: repeat(2, 250px);
-    grid-template-rows: 250px 450px 310px 390px 220px 170px 100px 250px;
+    grid-template-rows: 250px 377px 305px 405px 200px 170px 100px 200px;
     column-gap: 1rem;
   }
   .w-sm-50 {
